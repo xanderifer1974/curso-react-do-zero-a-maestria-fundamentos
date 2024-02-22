@@ -1,3 +1,5 @@
+import MyComponent from "./MyComponent";
+
 const TemplateExpression = () => {
   const name = "Alexandre";
   const data = {
@@ -10,6 +12,7 @@ const TemplateExpression = () => {
     <div>
       <h2> "Olá {name}, tudo bem?"</h2>
       <p>Você atua como {data.job}</p>
+      <MyComponent/>
     </div>
   );
 };
